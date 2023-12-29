@@ -214,9 +214,12 @@ ul {
   margin: 0 20px 0 20px;
   padding-bottom: 2%;
   display: block;
-  font-weight: 200;
   font-size: 18px;
   font-family: Playpen Sans;
+}
+
+.format{
+  font-size: 25px;
 }
 
 .notices {
