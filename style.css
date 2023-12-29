@@ -203,7 +203,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  font-size: 50px;
+  font-size: 40px;
   color: #2b0000;
   font-family: RubikDoodle;
   text-shadow: 1px 1px 2px rgb(173, 173, 173);
@@ -244,7 +244,7 @@ ul {
   text-decoration: underline;
   font-family: RubikDoodle;
   box-sizing: border-box;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .notices p {
