@@ -244,6 +244,7 @@ ul {
   text-decoration: underline;
   font-family: RubikDoodle;
   box-sizing: border-box;
+  font-size: 50px;
 }
 
 .notices p {
