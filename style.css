@@ -205,7 +205,7 @@ ul {
   margin-top: 20px;
   font-size: 40px;
   color: #2b0000;
-  font-family: RubikDoodle;
+  font-family: Rubik Doodle Shadow;
   text-shadow: 1px 1px 2px rgb(173, 173, 173);
   text-decoration: underline;
 }
@@ -218,7 +218,7 @@ ul {
   font-family: Playpen Sans;
 }
 
-.format{
+.format {
   font-size: 25px;
 }
 
@@ -272,20 +272,50 @@ ul {
   border-width: 3px;
 }
 
-.pc h1{
+.pc h1 {
   color: #2b0000;
   text-align: center;
   margin-top: 30px;
-  text-decoration: underline;
   font-family: RubikDoodle;
   box-sizing: border-box;
 }
 
-.pc p{
+.pc p {
   font-size: 20px;
   text-align: center;
   margin: 0 10% 0 10%;
   padding: 0;
+}
+
+.site_footer {
+  background-color: rgb(255, 250, 232);
+  height: max-content;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border-radius: 40px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.39);
+  box-sizing: border-box;
+}
+
+.site_footer h1{
+  margin-left: 5%;
+  padding-top: 2%;
+  color: #2b0000;
+  text-shadow: 2px 2px 5px #52000b;
+  text-decoration: underline;
+  box-sizing: border-box ;
+}
+.map{
+  margin-left: 5%;
+  margin-bottom: 2%;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 10px;
+  border-style: dashed;
+  border-color: #52000b;
+  border-width: 3px;
 }
 
 @media (max-width: 1330px) {
@@ -323,5 +353,9 @@ ul {
 
   .notices {
     width: 90%;
+  }
+  .map iframe{
+    width: 200px;
+    height: 200px;
   }
 }
